@@ -22,7 +22,7 @@ Desafio de Front-end, desenvolvido durante o Programa ONE (uma parceira Alura + 
 <table style="text-align: center;">
   <tr>
     <td>
-      <img height="150px" src="">
+      <img height="200px" src="https://github.com/user-attachments/assets/c471f8c6-bd4e-410c-8228-22f8b172256e">
     </td>
   <tr>
   </tr>
