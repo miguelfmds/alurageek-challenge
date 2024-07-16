@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsivo.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="icon" type="image/png" href="img/cogumelo_vermelho.png">
+</head>
+<body>
+    <header class="header">
+        <img  class="coracoes" src="img/coracoes.png" alt="coração de vida"> 
+        <h4>AluraGeek</h4>
+    </header>
+
+<main class="menu_container">
+    <section>
+        <h1> Meus Produtos: </h1>
+        <div data-produto class="produto_container">
+            <div class="card"> 
+            <div class="imag_container">
+                <img  class="card_img" src="img/bonecopikachu.jpg" alt="Boneco do Pikachu">
+            </div>
+            <div class="Img_info">
+                <p>Boneco do Pikachu</p>
+                <div class="card_valor">
+                    <p>R$100</p>
+                    <button class="butao_delete" data-id="${id}">
+                        <img src="img/lixeira.png" alt="lixeira">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"> 
+            <div class="imag_container">
+                <img class="card_img" src="img/Boneco Lapras.webp" alt="Boneco do Lapras">
+            </div>
+            <div class="Img_info">
+                <p>Boneco do Lapras</p>
+                <div class="card_valor">
+                    <p>R$100</p>
+                    <button class="butao_delete" data-id="${id}">
+                        <img src="img/lixeira.png" alt="lixeira">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card"> 
+            <div class="imag_container">
+                <img class="card_img" src="img/canecakratos.webp"  alt=" Caneca Kratos">
+            </div>
+            <div class="Img_info">
+                <p>Caneca do Kratos</p>
+                <div class="card_valor">
+                    <p>R$60</p>
+                    <button class="butao_delete" data-id="${id}">
+                        <img src="img/lixeira.png" alt="lixeira">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card"> 
+            <div class="imag_container">
+                <img  class="card_img" src="img/MiniaturasCompletas.jpg" alt="Miniaturas de Bonecos pokémon">
+            </div>
+            <div class="Img_info">
+                <p>Miniaturas 10 por:</p>
+                <div class="card_valor">
+                    <p>R$30</p>
+                    <button class="butao_delete" data-id="${id}">
+                        <img src="img/lixeira.png" alt="lixeira">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card"> 
+            <div class="imag_container">
+                <img  class="card_img" src="img/canecaPac.jpg"alt="Caneca do Pac-Man">
+            </div>
+            <div class="Img_info">
+                <p>Caneca Pac-Man</p>
+                <div class="card_valor">
+                    <p>R$70</p>
+                    <button class="butao_delete" data-id="${id}">
+                        <img src="img/lixeira.png" alt="lixeira">
+
+                    </button>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+    </section>
+
+    <section class="adicionar">
+        <h1> Adicionar <br> Produtos:</h1>
+        <form class="form_container" data-form>
+            <input data-name placeholder="nome..." type="text">
+            <input data-preco placeholder="preço..." type="text">
+            <input data-imagem placeholder="imagem..." type="text">
+
+            <div class="butao_container">
+                <button type="submit" class="butao_submit" id="butao">
+                    Guardar...
+                </button>
+                <button type="reset" class="butao_clear" id="butao">
+                    Limpar...
+                </button>
+            </div> 
+        </form>
+    </section>
+</main>
+
+<footer class="footer_container">
+    <div class="footer_content">
+        <img class="coracoes" src="img/coracoes.png" alt="coração de vida"> 
+        <h4>AluraGeek</h4>
+    </div>
+    <p>DESENVOLVIDO POR MIGUEL FRANCISCO</p> 
+    <p>ALURA LATAM - 2024</p>
+</footer>
+<script src="js/controles/main.js" type="module"></script>
+</body>
+</html>

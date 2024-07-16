@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "PlayStation 4",
+      "preco": "1900",
+      "imagem": "https://www.newwaynet.com.br/wp-content/uploads/2016/12/img-produtos-games-1-500x500.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Boneco do Gangar",
+      "preco": "100",
+      "imagem": "https://a-static.mlcdn.com.br/800x560/boneco-gengar-em-vinil-10cm-sunny-pokemon/fingsstoregeek/15939577122/ce15a2e97ad2e344ba2beeb9a08d0c11.jpeg"
+    },
+    {
+      "id": "3",
+      "nome": "Boneco do Lapras",
+      "preco": "100",
+      "imagem": "https://a-static.mlcdn.com.br/800x560/boneco-pokemon-battle-figure-45-lapras-wct-dtc-wct-wicked-cool-toys/bazaargeek/5183/9d8688da235d4028779bb64be3d16407.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "Boneco Mega Charizard",
+      "preco": "120",
+      "imagem": "https://tse4.mm.bing.net/th?id=OIP.ueMOrzp8hK7UwwVN1NBmQQHaHa&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "5",
+      "nome": "Miniaturas 10 por:",
+      "preco": "30",
+      "imagem": "https://photos.enjoei.com.br/kit-de-144-bonecos-miniatura-lote-pokemon-com-pikachu-incluso-colecao-completa/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMTgzNjAzNS8zYmIyMTkzNzEzOGNkZDBlNTM2NmMzNWM2ODcxNTA2ZC5qcGc"
+    },
+    {
+      "id": "6",
+      "nome": "Caneca Pac-Man",
+      "preco": "70",
+      "imagem": "https://d1s5vnzdzzk6v7.cloudfront.net/Custom/Content/Products/11/02/110287_pac-man-5511_m4_638156788266453540.jpg"
+    }
+  ]
+}

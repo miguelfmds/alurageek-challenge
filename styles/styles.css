@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+:root {
+    --fonteTitulo: 'Press Start 2P', sans-serif;
+    --fonteTexto: 'IBM Plex Mono', sans-serif;
+
+    --cor-de-fundo: #f0f3ef ;
+    --cor-dos-cards: #457b9d;
+    --cor-da-font: #121d2c;
+    --cor-botao: #457b9d;
+    --cor-botao-2:#c0c9d4;
+
+    --font-principal:"Press Start 2P", system-ui;
+    --font-secundaria:"IBM Plex Mono", monospace;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.header, .footer_content {
+    font-family: var(--font-principal);
+    background-color: var(--cor-dos-cards);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+img {
+    width: inherit;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 60px;
+    gap: 70px;
+    max-width: 100%;
+}
+  
+.produto_container {
+    padding: 40px;
+    box-shadow: -15px 9px 10px rgba(0, 0, 0, 0.548);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    width: auto;
+    height: 400px;
+    overflow: scroll;
+    
+}
+
+ .menu_container h1 {
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: var(--cor-da-font);
+    font-family: var(--font-principal);
+    font-size: 22px;
+    font-weight: 400;
+    margin:0 0 10px;
+ }
+
+ .menu_container h2 {
+    font-family: var(--font-principal);
+    color: var(--cor-da-font);
+    font-size: 22px;
+    font-weight: 400;
+    text-align:start;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 70px;
+    letter-spacing: 1px;
+ }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--cor-dos-cards);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+ 
+
+}
+.card_img {
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.Img_info {
+    padding: 10px;
+    font-family: var(--font-secundaria);
+    color: var(--cor-da-font);
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 8px;
+
+}
+
+.card_valor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-secundaria);
+    color: var(--cor-da-font);
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+button img {
+    padding: 0;
+    border: none;
+
+}
+
+/* Formulario e butões */
+
+.adicionar {
+    padding: 50px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+.form_container input {
+    padding: 15px;
+    border: 3px solid #000000;
+    border-radius: 40px;
+    font-size: 16px;
+    width: 310px;
+    height: 59px;
+    padding: 10px;
+    font-family: var(--font-secundaria);
+}
+
+
+.butao_submit {
+    background-color: var(--cor-botao);
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    width: 190px;
+    height: 55px;
+    border: 3px solid var(--cor-de-fundo);
+    border-radius: 40px;
+}
+
+.butao_clear {
+    background-color: var(--cor-botao-2);
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    width: 190px;
+    height: 55px;
+    border: 3px solid var(--cor-de-fundo);
+    border-radius: 40px;
+   
+}
+
+.butao_container{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.form_container button:hover {
+    background-color: var(--cor-dos-cards);
+}
+
+.form_container button:last-child {
+    margin-right: 0;
+}
+
+.butao_delete img {
+    width: 30px;
+    height: 25px;
+    background-color: transparent;
+}
+
+
+.butao_delete:hover {
+    background-color: var(--cor-de-fundo);
+} 
+
+
+
+
+/* footer */
+
+
+.footer_container {
+    background-color:var(--cor-dos-cards);
+    color: rgb(0, 0, 0);
+    padding: 20px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.footer_container h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-da-font);
+    text-align: center;
+    font-family: var(--font-principal);
+}
+
+.footer_container p {
+    font-family: var(--fonteTexto);
+    color: var(--cor-da-font);
+    font-size: 1rem;
+    font-weight: 400;
+}
